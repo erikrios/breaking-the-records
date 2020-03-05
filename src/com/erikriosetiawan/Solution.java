@@ -18,9 +18,7 @@ public class Solution {
             if (max < scores[i + 1]) {
                 max = scores[i + 1];
                 highestScore++;
-            }
-
-            if (min > scores[i + 1]) {
+            } else if (min > scores[i + 1]) {
                 min = scores[i + 1];
                 lowestScore++;
             }
